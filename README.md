@@ -59,6 +59,9 @@ You will be running your tests in one terminal and debugging in the other. As yo
 Edit the `ReadMe` file with your answers to the questions below.
 
 1. In your own words, define closure (1-2 sentences).
+
+Closure is when a child element reaches into a parent to grab some information, whether that be a variable or function. 
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -80,8 +83,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+The newRoll function is reaching into the parent to grab the name which is the closure. 
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+The name is always the same, but the number that he rolls changes. 
 c. What is the lexical scope of `newRoll`? 
+NewRoll is only accessible in the personalDice function. 
 
 
 ### Task 3 - Stretch Goals
